@@ -13,6 +13,11 @@
 		3F17119C1C19A1D700EFB25A /* Beacons.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F17119A1C19A1D700EFB25A /* Beacons.xcdatamodeld */; };
 		3F17119E1C19A1D700EFB25A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F17119D1C19A1D700EFB25A /* Assets.xcassets */; };
 		3F1711A11C19A1D700EFB25A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F17119F1C19A1D700EFB25A /* LaunchScreen.storyboard */; };
+		3FA4248E1C1AE2C2006F4DBF /* EstimoteSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA4248D1C1AE2C2006F4DBF /* EstimoteSDK.framework */; };
+		3FD355C51C20265900193082 /* AcousticModelEnglish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3FD355C11C20265900193082 /* AcousticModelEnglish.bundle */; };
+		3FD355C61C20265900193082 /* AcousticModelSpanish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3FD355C21C20265900193082 /* AcousticModelSpanish.bundle */; };
+		3FD355C71C20265900193082 /* OpenEars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD355C31C20265900193082 /* OpenEars.framework */; };
+		3FD355C81C20265900193082 /* Slt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD355C41C20265900193082 /* Slt.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,12 @@
 		3F17119D1C19A1D700EFB25A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F1711A01C19A1D700EFB25A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F1711A21C19A1D700EFB25A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA4248C1C1AE1C4006F4DBF /* ObjCBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCBridge.h; sourceTree = "<group>"; };
+		3FA4248D1C1AE2C2006F4DBF /* EstimoteSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EstimoteSDK.framework; path = EstimoteSDK/EstimoteSDK.framework; sourceTree = "<group>"; };
+		3FD355C11C20265900193082 /* AcousticModelEnglish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelEnglish.bundle; sourceTree = "<group>"; };
+		3FD355C21C20265900193082 /* AcousticModelSpanish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelSpanish.bundle; sourceTree = "<group>"; };
+		3FD355C31C20265900193082 /* OpenEars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenEars.framework; sourceTree = "<group>"; };
+		3FD355C41C20265900193082 /* Slt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Slt.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +42,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FD355C81C20265900193082 /* Slt.framework in Frameworks */,
+				3FA4248E1C1AE2C2006F4DBF /* EstimoteSDK.framework in Frameworks */,
+				3FD355C71C20265900193082 /* OpenEars.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +54,11 @@
 		3F1711871C19A1D700EFB25A = {
 			isa = PBXGroup;
 			children = (
+				3FD355C11C20265900193082 /* AcousticModelEnglish.bundle */,
+				3FD355C21C20265900193082 /* AcousticModelSpanish.bundle */,
+				3FD355C31C20265900193082 /* OpenEars.framework */,
+				3FD355C41C20265900193082 /* Slt.framework */,
+				3FA4248D1C1AE2C2006F4DBF /* EstimoteSDK.framework */,
 				3F1711921C19A1D700EFB25A /* Beacons */,
 				3F1711911C19A1D700EFB25A /* Products */,
 			);
@@ -63,6 +82,7 @@
 				3F17119F1C19A1D700EFB25A /* LaunchScreen.storyboard */,
 				3F1711A21C19A1D700EFB25A /* Info.plist */,
 				3F17119A1C19A1D700EFB25A /* Beacons.xcdatamodeld */,
+				3FA4248C1C1AE1C4006F4DBF /* ObjCBridge.h */,
 			);
 			path = Beacons;
 			sourceTree = "<group>";
@@ -99,6 +119,7 @@
 				TargetAttributes = {
 					3F17118F1C19A1D700EFB25A = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = ZGGN4YK8WH;
 					};
 				};
 			};
@@ -126,6 +147,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F1711A11C19A1D700EFB25A /* LaunchScreen.storyboard in Resources */,
+				3FD355C61C20265900193082 /* AcousticModelSpanish.bundle in Resources */,
+				3FD355C51C20265900193082 /* AcousticModelEnglish.bundle in Resources */,
 				3F17119E1C19A1D700EFB25A /* Assets.xcassets in Resources */,
 				3F1711991C19A1D700EFB25A /* Main.storyboard in Resources */,
 			);
@@ -251,10 +274,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EstimoteSDK",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Beacons/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "\"${PROJECT_DIR}\"";
 				PRODUCT_BUNDLE_IDENTIFIER = teste.Beacons;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_NAME}/ObjCBridge.h";
 			};
 			name = Debug;
 		};
@@ -262,10 +296,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EstimoteSDK",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Beacons/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "\"${PROJECT_DIR}\"";
 				PRODUCT_BUNDLE_IDENTIFIER = teste.Beacons;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_NAME}/ObjCBridge.h";
 			};
 			name = Release;
 		};
@@ -288,6 +333,7 @@
 				3F1711A71C19A1D700EFB25A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
